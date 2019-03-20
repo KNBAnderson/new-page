@@ -1,0 +1,15 @@
+p.intro {
+  text-decoration: underline;
+  font-style: italic;
+  font-family: 'Oswald', sans-serif;
+}
+
+p.outro {
+  text-decoration: overline;
+  font-family: fantasy;
+  color: red;
+}
+
+p {
+  color: cyan;
+}
