@@ -6,9 +6,10 @@ div.animal-container {
   width: 20%;
   float: left;
   margin: 1%;
-  border: 1px black solid;
+  border: none;
   background-color:#C6E0FF;
   padding: 1%;
+  font-family: 'Sniglet', cursive;
 }
 
 img {
@@ -23,9 +24,39 @@ h1 {
 }
 
 body {
-  background-color: #9EBC9F;
+  background-color: #C6E0FF;
 }
 
 .beluga {
-color: red;
+color:black;
+}
+
+@media screen and (max-width: 480px) and (min-width: 300px) {
+  .animal-container-box {
+    width: 80%;
+    margin:auto;
+    float: none;
+    text-align: left;
+    border: none;
+    padding-bottom: 50px;
+  }
+
+  body {
+    background-color: #C6E0FF;
+  }
+
+  .beluga {
+    color: inherit;
+  }
+
+}
+
+@media screen and (max-width: 1000px) and (min-width: 700px){
+  .animal-container-box {
+    width: 50%;
+    margin:auto;
+    float; right: auto;
+    text-align: left;
+    border: none;
+    padding-bottom: 50px;
 }
